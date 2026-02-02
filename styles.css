@@ -34,16 +34,17 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.nav-left p{
+.nav-link{
     color: black;
     text-decoration: none;
     font-size: 14px;    
     font-weight: bold;
-    padding: 20px;   
+    padding: 30px 16px 30px 0px !important;
     display: inline-flex;
     cursor: pointer;
+    margin-left: 5px;
 }
-.nav-left p:hover {
+.nav-link:hover {
     color: #006342;
 }
 .location{
@@ -78,6 +79,12 @@ button.sign-in {
     background-color: white;
     color: #000;
     border-color: #000;
+    font-weight: bold;
+    height: 32px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    border-width: 1px;
+    border-style: solid;
 }
 button.sign-in:hover {
     background-color: rgba(0, 0, 0, 0.1);
@@ -86,10 +93,22 @@ button.join-now {
     color: white;
     background-color: #000;
     border-color: #fff;
-    margin-left: 15px;
+    font-weight: bold;
+    height: 32px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    border-width: 1px;
+    border-style: solid;
 }
 button.join-now:hover {
     background-color: rgba(0, 0, 0, 0.7);
+}
+.find-store {
+    padding-right: 30px;
+}
+.find-store span {    
+    font-size: 14px;
+    font-weight: 600;
 }
 .start-order-container {
     height: 110px;
@@ -101,6 +120,7 @@ button.join-now:hover {
 }
 .start-order-container p {
     margin-top: 15px;
+    margin-bottom: 0px;
     font-weight: 600;
 }
 button.start-order {
@@ -218,23 +238,24 @@ button.start-order:hover {
 }
 .hero-section {
     border-bottom: 1px solid rgb(128, 128, 128);
+    margin-bottom: 24px;
 }
 hr {
     color: rgb(128, 128, 128);
     margin: 0px 40px;
 }
 .foot-panel-1 {
-    display: flex;    
-    justify-content: space-evenly;
     margin-top: 20px;
+    padding: 0px 25px;
 }
-.foot-panel-1 a {
+.foot-panel-1 ul li a {
+    display: block;
     color: grey;
     text-decoration: none; 
     padding:15px 0px;  
     max-width: 170px; 
 }
-.foot-panel-1 a:hover {
+.foot-panel-1 ul li a:hover {
     color: black;
     
 }
@@ -243,7 +264,7 @@ hr {
     flex-direction: column;
     
 }
-.foot-panel-1 p {
+.foot-panel-1 h6 {
     font-size: 20px;
 }
 .foot-panel-2 {
@@ -260,6 +281,7 @@ hr {
 .foot-panel-2 ul {
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
 }
 .foot-panel-2 .icons {
     font-size: 30px;
