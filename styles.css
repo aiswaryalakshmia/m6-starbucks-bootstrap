@@ -190,6 +190,12 @@ button.start-order:hover {
     .hero-image,
     .hero-text {
         width: 50%;
+    }    
+}
+@media(max-width:767px){
+    .nav-link{
+        padding-top: 10px !important; 
+        padding-bottom: 10px !important;
     }
 }
 
